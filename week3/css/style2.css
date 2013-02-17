@@ -1,0 +1,74 @@
+*{
+		    margin:0;
+    		padding:0;
+}
+body{
+		    background: snow;
+		    font-family: 'Droid Sans', sans-serif;
+		    font-size: 18px;
+    		font-style: normal;
+		    letter-spacing:-1px;
+		    width:14000px;
+		    position:absolute;
+    		top:0px;
+		    left:0px;
+		    bottom:0px;
+}
+.section{
+		    margin:0px;
+		    bottom:0px;
+		    width:2000px;
+		    float:left;
+    		height:100%;
+    		text-shadow:1px 1px 2px #bab3b3;
+}
+.section h1{
+    		margin:50px 0px 30px 50px;
+		    clear:both;
+}
+.section p{
+    		margin:20px 0px 0px 50px;
+		    width:500px;
+		    border-color: red;
+}
+
+.right {	/*float:right;*/
+	
+}
+
+ul.nav {
+
+    		list-style:none;
+    		margin:20px 0px 0px 40px;
+    
+    
+}
+.black ul li{
+		    float:left;
+		    padding:5px;
+    		margin:5px;
+    	 	color:#aaa;
+}
+.black ul li a{
+   			display:block;
+   			color:#222;
+}
+.black ul li a:hover{
+		    text-decoration:none;
+		    color:#000;
+}
+.white ul li{
+		    float:left;
+		    padding:5px;
+		    margin:5px;
+		    color:#aaa;
+}
+.white ul li a{
+		    display:block;
+		    color:#222;
+}
+.white ul li a:hover{
+		    text-decoration:none;
+		    color:#000;
+}  		
+	
