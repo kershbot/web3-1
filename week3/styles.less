@@ -1,0 +1,112 @@
+@absolute : 0px;
+@fontS: 10px;
+@fontF: 'Droid Sans';
+@width: 14000px;
+@floatLeft: left;
+
+body{ 	background: ghostwhite;
+		font-family: @fontF;
+		font-size:  @fontS;
+		font-style: normal;
+		letter-spacing: -1px;
+		width: @width;
+		position: absolute;
+		top: @absolute;
+		left: @absolute;
+		bottom: @absolute;
+		color: #7b7b7b;
+		text-transform: none;
+		margin: 0px;
+		
+				
+	
+}
+
+@margin-zero: 0px;
+@section-width: 550px;
+
+.section{
+	
+		margin: @margin-zero;
+		bottom: @margin-zero;
+		width: @section-width;
+		float: @floatLeft;
+		height: 100%;
+		text-shadow: 1px 1px 2px #bab3b3;
+		padding-left:  50px;
+		padding-right: 900px;
+		
+		
+}
+
+@hBold: bold;
+
+h1 {	font-size:  2em;
+		font-weight:  @hBold;
+		width: 100%;
+		text-decoration: underline;
+				
+	
+}
+
+h2 {	font-size: 1.2em;
+		font-weight: @hBold;
+		
+}
+
+.marginClear {
+		padding:50px 0px 30px 0px;
+		clear:both;
+}
+
+.section h1 {
+		.marginClear;
+	
+	
+}
+
+.paragraphSet {
+		padding:15px 0px 15px 0px;
+		width:500px;
+	
+}
+
+.section p {
+		.paragraphSet;
+		
+}
+
+.marginPadding(@transition){
+	padding: @transition;
+	margin: @transition;
+	
+}
+
+ul.nav {
+
+    		list-style:none;
+    		margin:20px 0px 0px 40px;
+    
+    
+}
+
+.section ul li {
+			.marginPadding(5px);
+			float: @floatLeft;
+			color: #aaa;
+			/*word-spacing: 50px;*/
+			list-style-type: none;
+				& a {
+					word-spacing: 50px;
+					display: block;
+					color: #7b7b7b;
+					&:hover{
+						text-decoration: none;
+						color: lightgrey;
+					
+				}
+			}
+		
+		
+		
+}
